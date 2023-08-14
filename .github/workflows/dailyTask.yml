@@ -21,8 +21,8 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
       - name: execute the task
         env:
-          sessdata: ${{ secrets.SESSDATA }}
-          userId: ${{ secrets.USERID }}
-          bill_jct: ${{ secrets.BILL_JCT }}
-          sckey: ${{ secrets.SCKEY }}
+          sessdata: ${{ aebdf11e%2C1707564786%2Cd43ed%2A8228TvewXntQtE7E5jMwZzBwVps9OFC9qymFTO8Ir3XuYsuhYCmah1uNrKMY5oh_hYUa3vqQAASgA }}
+          userId: ${{ 2141933274 }}
+          bill_jct: ${{ cbb5fb51751c7619102ad3ea205e3bb3 }}
+          sckey: ${{ SCT219791TIIOSma1TS85at5WrSFnYJwhp }}
         run: mvn compile exec:java -Dexec.mainClass="com.hhdd.Main" -Dexec.args="${sessdata} ${userId} ${bill_jct} ${sckey}"
